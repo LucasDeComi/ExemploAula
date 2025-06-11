@@ -29,5 +29,10 @@ namespace ExemploAula
                 txtUsuario.Focus();
             }
         }
+
+        private void mstiSair_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
